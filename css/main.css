@@ -1,0 +1,458 @@
+/*
+My colors:-
+First color: #FF1C26
+second color: #171C38
+third color: #0F57EA
+*/
+
+/*Start My Css Code*/
+
+.layer{
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    top:0;
+    left: 0;
+    position: absolute;
+    background-size: cover;
+    opacity: 1;
+}
+
+ /*Style ov all h2s*/
+
+header-section{
+    margin-bottom: 35px;
+}
+.header-section .title {
+	position: relative;
+	margin-bottom: 40px;
+	padding-bottom: 25px;
+	font-weight: 700;
+    color: #FFF
+}
+.header-section .title:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 140px;
+	height: 1px;
+	background-color: #FF1C26;
+}
+.header-section .title:after {
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 45px;
+	height: 3px;
+	background-color: #FF1C26;
+}
+
+/*End My Css Code*/
+
+/*Start Header*/
+
+.header{
+    background-image: url('../imgs/Bg.png');
+    background-size: cover;
+    z-index: 1;
+    position: relative
+}
+
+/*Start Navbar*/
+
+.header .navbar {
+    border-bottom: 2px #FF1C26 solid;
+    z-index: 4;
+    position: absolute;
+    width:80%
+}
+.header .navbar .logo{
+    height:auto;
+    width:300px;
+}
+.header .navbar .logo img{
+    width:100%;
+    height:100%
+}
+.header .navbar .navbar-collapse {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF
+}
+.header .navbar .navbar-collapse li{
+    margin-left:20px;
+}
+.header .navbar .nav-item .nav-link {
+    color: #FFF;
+    font-size: 20px;
+    text-transform:capitalize;
+    font-family: Ubuntu-M;
+}
+.header .navbar .nav-item .nav-link:hover{
+    color: #FF1C26
+}
+/*End Navbar*/
+
+.header .head-text{
+    margin-top:40%;
+    color: #FFF;
+}
+.header .head-text  h1 {
+    font-size: 80px;
+    font-weight:500;
+    font-family: Ubuntu-M;
+    position: relative
+}
+.header .head-text span{
+    color:#FF1C26;
+}
+.header .head-text p {
+    font-size: 30px;
+    font-family: Ubuntu-L;
+}
+
+/*Start Bottom Icons*/
+
+.header .bottom-icons{
+    top:85%;
+    z-index: 2;
+    justify-content: center;
+    padding-top: 250px
+}
+.header .bottom-icons img {
+    width: 100%;
+    height: 100%
+}
+.header .bottom-icons .contact-icons{
+    justify-content: center; 
+}
+.header .bottom-icons .nav-item{
+    padding: 5px;
+}
+.header .bottom-icons .nav-item .facebook {
+    width: 9px;
+    height: 20px;
+}
+.header .bottom-icons .nav-item .twitter{
+    width:20px;
+    height:18px;
+}
+.header .bottom-icons .nav-item .instagram{
+    width:20px;
+    height:20px;
+}
+.header .bottom-icons .nav-item .linkedn {
+    width: 20px;
+    height: 20px;
+}
+.header .login-icon .nav-item .login{
+    width: 35px;
+    height: 35px;
+}
+.header .login-icon .nav-item .login img{
+    width: 100%;
+    height: 100%
+}
+.header .login-icon .nav-item .login-link{
+    color: #FFF;
+    font-family: Ubuntu-M;
+    font-size: 22px;
+}
+.header .login-icon{
+    z-index: 3;
+   
+}
+
+/*End Bottom Icons*/
+
+/*End Header*/
+
+
+
+a,p,h1,h2,h3,h4,ul {
+	margin: 0;
+	padding: 0;
+}
+
+.section-services {
+	padding-top: 110px;
+	padding-bottom: 120px;
+	font-family: Ubuntu-R;
+	background-color: #171C38;
+	color: #fff;
+    position: relative
+}
+.section-services .layer{
+    background-image: url('../imgs/Bg%202.png')
+}
+
+.section-services .header-section {
+	margin-bottom: 35px;
+}
+
+.section-services .header-section .title {
+	position: relative;
+	margin-bottom: 40px;
+	padding-bottom: 25px;
+	font-weight: 700;
+}
+
+.section-services .header-section .title:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 140px;
+	height: 1px;
+	background-color: #FF1C26;
+}
+
+.section-services .header-section .title:after {
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 45px;
+	height: 3px;
+	background-color: #FF1C26;
+}
+
+.section-services .header-section .title span {
+	color: #FF1C26;
+}
+
+.section-services .header-section .description {
+	color: #FFF;
+}
+
+.section-services .single-service {
+	margin-top: 40px;
+    height: 300px;
+	background-color: #171C38;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
+    perspective: 600px
+}
+
+.section-services .single-service .part-1 {
+	padding: 40px 40px 25px;
+	border-bottom: 2px solid #171C38;
+}
+
+.section-services .single-service .part-1 .imgs {
+    width: 50px;
+    height: 50px;
+}
+.section-services .single-service .part-1 .mobile{
+    width: 22.5px;
+    height: 55px;
+}
+.section-services .single-service .part-1 i {
+	margin-bottom: 25px;
+	font-size: 50px;
+	color: #FF1C26;
+}
+
+.section-services .single-service .part-1 .title {
+	font-size: 17px;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+	line-height: 1.8em;
+}
+
+.section-services .single-service .part-2 {
+	padding: 30px 40px 40px;
+}
+
+.section-services .single-service .part-2 .description {
+	margin-bottom: 22px;
+	color: #FFF;
+	font-size: 14px;
+	line-height: 1.8em;
+}
+
+.section-services .single-service .part-2 a {
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.section-services .single-service .part-2 a i {
+	margin-right: 10px;
+	color: #FF1C26
+}
+/*start our clients*/
+
+.our-clients{
+    background-color: #171C38;
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: relative;
+    margin: auto
+}
+.our-clients .layer{
+    background-image: url('../imgs/BG-01.png');
+}
+.our-clients .logos-gr{
+    z-index: 3;
+    justify-content: center;
+    position: relative;
+}
+.our-clients .logos-gr h1{
+    margin-bottom: 100px
+}
+.our-clients .logos-gr .row{
+    margin: auto;
+    justify-content: space-between
+    
+}
+.our-clients .logos-gr .white-bg {
+    width: 100px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.our-clients .logos-gr .white-bg img{
+    width: 100%;
+    height: 100%;
+}
+
+/*End our clients*/
+
+/* Start our Team*/
+
+.our-team{
+    padding-bottom: 30px;
+    padding-top: 30px
+}
+.our-team .header-section .title{
+    color: black
+}
+.our-team .team-box{
+    margin: 30px auto;
+    vertical-align: middle
+}
+.our-team .member{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #FF1C26;
+}
+.our-team .member img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%
+}
+.our-team .member h6{
+    margin-top: 30px;
+}
+
+.our-team .bottom-icons {
+    z-index: 2;
+    justify-content: center;
+    margin: auto
+}
+.our-team  .bottom-icons img {
+    width: 100%;
+    height: 100%;
+    background-color: black
+}
+.our-team  .bottom-icons .contact-icons{
+    margin: auto;
+    justify-content: center;
+}
+.our-team  .bottom-icons .nav-item{
+    
+}
+.our-team  .bottom-icons .nav-item .facebook {
+    width: 8px;
+    height: 15px;
+}
+.our-team  .bottom-icons .nav-item .twitter{
+    width:15px;
+    height:12px;
+}
+.our-team  .bottom-icons .nav-item .instagram{
+    width:15px;
+    height:15px;
+}
+.our-team .bottom-icons .nav-item .linkedn {
+    width: 15px;
+    height: 15px;
+}
+/* End our Team*/
+
+/*Start our mission*/
+
+.our-mission{
+    background-color: #171C38;
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: relative;
+    min-height: 600px
+}
+.our-mission .layer{
+    background-image: url('../imgs/Mission%20bg.png');
+}
+.our-mission .mission-box{
+    z-index: 3;
+    justify-content: center;
+    position: relative;
+}
+.our-mission .mission-box .row{
+    justify-content: center
+}
+.our-mission .mission-box .progr p{
+    color: #FFF;
+    width: 500px;
+    font-family: Ubuntu-R;
+    line-height: 2;
+    font-size: 25px;
+    justify-content: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.our-mission .mission-box .progr p .bold-line{
+    font-family: Ubuntu-B;
+}
+.our-mission .mission-box .progr p .red-word{
+    color: #FF1C26;
+}
+.our-mission .laptop .image{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+
+}
+.our-mission .laptop .image img{
+    width: 100%;
+    height: 100%
+}
+/*Start our mission*/
+
+/*My Fonts*/
+
+@font-face {
+    font-family: Ubuntu-B;
+    src: url('../Fonts/Ubuntu-B.TTF');
+}
+
+@font-face {
+    font-family: Ubuntu-M;
+    src: url('../Fonts/Ubuntu-M.TTF');
+}
+
+@font-face {
+    font-family: Ubuntu-L;
+    src: url('../Fonts/Ubuntu-L.TTF');
+}
+
+@font-face {
+    font-family: Ubuntu-R;
+    src: url('../Fonts/Ubuntu-R.TTF')
+}
